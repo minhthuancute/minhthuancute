@@ -1,0 +1,87 @@
+
+[
+  {
+    "_id": "5e7345c7f60d5d0a598a8edc",
+    "avatar": "/assets/comming-films/coma.jpg",
+    "avatarSub": "",
+    "name": "coma",
+    "des": "kẻ đào tẩu giấc mơ"
+  },
+  {
+    "_id": "5e7345c755eb4945ee189904",
+    "avatar": "/assets/comming-films/ba-hoang-noi-doi.jpg",
+    "avatarSub": "/assets/comming-films/ba-hoang-noi-doi-sub.jpg",
+    "name": "honest candidate",
+    "des": "bà hoàng nói dối"
+  },
+  {
+    "_id": "5e7345c702dba2d286d42f1d",
+    "avatar": "/assets/comming-films/sa-mac-chet.jpg",
+    "avatarSub": "",
+    "name": "the dustwalker",
+    "des": "sa mạc chết"
+  },
+  {
+    "_id": "5e7345c786c2183cc1c0db9f",
+    "avatar": "/assets/comming-films/vo-dien-sat-nhan.png",
+    "avatarSub": "/assets/comming-films/vo-dien-sat-nhan-sub.jpg",
+    "name": "vô diện sát nhân",
+    "des": ""
+  },
+  {
+    "_id": "5e7345c72b76b1babfb15d40",
+    "avatar": "/assets/comming-films/lat-mat.jpg",
+    "avatarSub": "",
+    "name": "lật mặt",
+    "des": ""
+  },
+  {
+    "_id": "5e7345c77c8b5a482f0cbe93",
+    "avatar": "/assets/comming-films/goa-phu-den.jpg",
+    "avatarSub": "",
+    "name": "black widow",
+    "des": "góa phụ đen"
+  },
+  {
+    "_id": "5e7345c7780737045556669a",
+    "avatar": "/assets/comming-films/wonder-women.png",
+    "avatarSub": "",
+    "name": "wonder women 1984",
+    "des": ""
+  },
+  {
+    "_id": "5e7345c76d0037ecc16654ad",
+    "avatar": "/assets/comming-films/minions.jpg",
+    "avatarSub": "",
+    "name": "minions: the rise of gru",
+    "des": "minions: sự trỗi dậy của gru"
+  },
+  {
+    "_id": "5e7345c735a560a706a714e6",
+    "avatar": "/assets/comming-films/king'sman.jpg",
+    "avatarSub": "",
+    "name": "the king's man",
+    "des": "kingsman: khởi nguồn"
+  },
+  {
+    "_id": "5e7345c7c055a01ed04dbf71",
+    "avatar": "/assets/comming-films/no-time-to-die.jpg",
+    "avatarSub": "",
+    "name": "no time to die",
+    "des": ""
+  },
+  {
+    "_id": "5e7345c7c055a01ed04dbf71",
+    "avatar": "/assets/comming-films/fast-furious-9.jpg",
+    "avatarSub": "",
+    "name": "quá nhanh quá nguy hiểm 9",
+    "des": ""
+  },
+  {
+    "_id": "5e747a9183c04606149aff7c",
+    "avatar": "/assets/comming-films/tieng-goi-hoang-da.jpg",
+    "avatarSub": "",
+    "name": "the call of wild",
+    "des": "tiếng gọi nơi hoang đã"
+  }
+]

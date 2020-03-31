@@ -1,0 +1,83 @@
+
+[
+  {
+    "_id": "5e7c87a31c2780e987534e60",
+    "avatar": "/assets/previews/blood-shot.jpg",
+    "name": "[Review] Bloodshot: Vin Diesel và giấc mơ siêu anh hùng",
+    "des": "Dù hóa thân thành Groot trong Guardians Of The Sky là siêu anh hùng nhưng Vin Diesel chỉ lồng tiếng chứ...",
+    "likes": 2,
+    "views": "1410",
+    "star": "9.1",
+    "vote": "237"
+  },
+  {
+    "_id": "5e7c87a349f7f09126e8d4f1",
+    "avatar": "/assets/previews/phia-sau-man-anh.jpg",
+    "name": "Phía Sau Màn Ảnh: Những Minh Tinh Bị Hollywood Lãng Quên",
+    "des": "Ngày qua ngày, bao nhiêu ngôi sao mới xuất hiện thì cũng bấy nhiêu người cũ biến mất. Họ đang ở đâu, vẫn đang ch...",
+    "likes": 0,
+    "views": "39",
+    "star": "",
+    "vote": ""
+  },
+  {
+    "_id": "5e7c87a356f34f8f77c9ac02",
+    "avatar": "/assets/previews/onward.jpg",
+    "name": "[Review] Onward: Lộ Diện Ứng Viên Đầu Tiên Cho Oscar Hoạt Hình 2021?",
+    "des": "Pixar luôn là Pixar. Dù rất nhiều ý kiến cho rằng việc về dưới trướng Disney khiến hãng phim hoạt hình dần mai m...",
+    "likes": 0,
+    "views": "1087",
+    "star": "7.8",
+    "vote": "65"
+  },
+  {
+    "_id": "5e7c87a3073574090d615c94",
+    "avatar": "/assets/previews/song-chung-voi-zombie.jpg",
+    "name": "Sống Chung Với Zombie",
+    "des": "Cùng nhìn lại những nguyên tắc sống còn của anh chàng Columbus trong phim hay Zombieland để áp dụng cho b...",
+    "likes": 0,
+    "views": "41",
+    "star": "",
+    "vote": ""
+  },
+  {
+    "_id": "5e7c87a3e1553d1a72ea9be1",
+    "avatar": "/assets/previews/a-quite-place-2.jpg",
+    "name": "[Review] A Quite Place 2: Hé Lộ Bí Mật Hậu Tận Thế?",
+    "des": "90 phút căng như dây đàn của A Quite Place giúp nhà sản xuất kiếm cả núi tiền từ kinh phí chỉ 17 triệu $. Bộ phim...",
+    "likes": 2,
+    "views": "2166",
+    "star": "8.8",
+    "vote": "51"
+  },
+  {
+    "_id": "5e7c87a369d1d13164db4b43",
+    "avatar": "/assets/previews/top-bom-tan.jpg",
+    "name": "Top Bom Tấn Có Thể Đương Đầu Với Khủng Hoảng 'Hậu Corona'",
+    "des": "Trước tình hình dịch cúm Covid-19 đang gây quan ngại trên toàn thế giới, số phận của những bộ phim ra mắt...",
+    "likes": 0,
+    "views": "71",
+    "star": "",
+    "vote": ""
+  },
+  {
+    "_id": "5e7c87a3a7c3b7ecd4edfc1a",
+    "avatar": "/assets/previews/doi-mat-am-duong.jpg",
+    "name": "[Review] Đôi mắt âm dương: khi phim kinh dị bất ngờ hợp rơ với mùa tết",
+    "des": "Mùa Tết vốn dĩ đầy kiên kị, là thời điểm cho phim hài từ hay cho đến dở hốt bạc. Thế nhưng, một phim kinh dị l...",
+    "likes": 4,
+    "views": "9750",
+    "star": "7.2",
+    "vote": "455"
+  },
+  {
+    "_id": "5e7c87a3356b5a7d89a9ff38",
+    "avatar": "/assets/previews/dap-hop-hau-truong.jpg",
+    "name": "đập hộp hậu trường: sao hạng a nô nức cameo start wars",
+    "des": "Ngoài những gương mặt quen thuộc như Daisy Ridley và Adam River... Star Wars còn có sự ghóp mặt của rất nh...",
+    "likes": 0,
+    "views": "28",
+    "star": "",
+    "vote": ""
+  }
+]

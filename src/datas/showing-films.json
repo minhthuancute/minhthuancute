@@ -1,0 +1,59 @@
+
+[
+  {
+    "_id": "5e73130d32f826a3b78f3b6e",
+    "avatar": "assets/showing-films/blood-shot.jpg",
+    "avatarSub": "assets/showing-films/blood-shot-sub.jpg",
+    "name": "BLOODSHOT",
+    "des": ""
+  },
+  {
+    "_id": "5e73130dcc0dad5b24ecc574",
+    "avatar": "/assets/showing-films/nang-3.jpg",
+    "avatarSub": "assets/showing-films/nang-3-sub.jpg",
+    "name": "nắng 3: lời hứa của cha",
+    "des": ""
+  },
+  {
+    "_id": "5e73130d33c785580d264c35",
+    "avatar": "/assets/showing-films/onward.jpg",
+    "avatarSub": "assets/showing-films/onward-sub.jpg",
+    "name": "onward",
+    "des": "truy tìm phép thuật"
+  },
+  {
+    "_id": "5e73130dba1e8450bca4d39d",
+    "avatar": "/assets/showing-films/dau-an.jpg",
+    "avatarSub": "",
+    "name": "8: a south african horor story",
+    "des": "dấu ấn vô cực"
+  },
+  {
+    "_id": "5e73130d0117666e33316714",
+    "avatar": "/assets/showing-films/i-still-believe.jpg",
+    "avatarSub": "",
+    "name": "I still believe",
+    "des": "vì anh vẫn tin"
+  },
+  {
+    "_id": "5e73130d84215b4879dfe326",
+    "avatar": "/assets/showing-films/can-ho-cua-quy.jpg",
+    "avatarSub": "",
+    "name": "32 malaysia street",
+    "des": "căn hộ của quỷ"
+  },
+  {
+    "_id": "5e73130db5f5d67025054c58",
+    "avatar": "/assets/showing-films/ac-mong-ben-ho.jpg",
+    "avatarSub": "",
+    "name": "lake of death",
+    "des": "ác mộng bên hồ"
+  },
+  {
+    "_id": "5e73130d034c61139116ca80",
+    "avatar": "/assets/showing-films/ke-vo-hinh.jpg",
+    "avatarSub": "",
+    "name": "the invisible man",
+    "des": "kẻ vô hình"
+  }
+]

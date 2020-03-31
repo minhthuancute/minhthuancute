@@ -1,0 +1,38 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.8px;
+   box-sizing:  border-box;
+   ul{
+      li{
+         list-style: none;
+      }
+   }
+
+   a{
+      text-decoration: none;
+   }
+
+   button{
+      border: none;
+      outline: none;
+   }
+
+   input{
+      border: none;
+      outline: none;
+   }
+}
+
+.mid{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.space{
+   display: flex;
+   justify-content: space-between;
+}
