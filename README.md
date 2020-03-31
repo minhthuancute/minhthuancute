@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run: cd galaxy-app -> npm start
+Run: 
+- Open Visual code
+- In terminal(Ctrl ~): cd galaxy-app -> npm start
 
 ## Available Scripts
 
