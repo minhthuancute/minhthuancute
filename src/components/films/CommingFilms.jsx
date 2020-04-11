@@ -1,6 +1,6 @@
 
 
-import React, { useState } from 'react'
+import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Link } from 'react-router-dom'
 import { primary, secondary, black, white } from '../colors/colors'
@@ -12,7 +12,7 @@ import CommingFilmDatas from '../../datas/comming-films.json'
 
 const display = keyframes`
    0%{
-      transform: translateY(20px);
+      transform: translateY(30px);
       opacity: 0;
    }
    100%{
@@ -22,14 +22,14 @@ const display = keyframes`
 `;
 
 const Container = styled.div`
-   width: 1250px;
+   width:  1250px;
 `;
 
 const Comming = styled.div`
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 30px 0;
+   margin-top: 25px;
 `;
 
 const Menu = styled.div`
@@ -50,7 +50,7 @@ const Menu = styled.div`
          width: 100%;
          height: 2px;
          background-color: ${primary};
-         bottom: 0;
+         bottom: -1.4px;
          left: 0;
          transform-origin: (50%,50%);
          transition: all 0.2s ease-in;
@@ -76,18 +76,16 @@ const ShowFilms = styled.div`
    justify-content: space-between;
    flex-wrap: wrap;
    margin: 30px 0;
-   width:  1250px;
    animation: ${display} 0.4s linear;
 `;
 
 const width = '290px';
 const Film = styled.div`
    width: ${width};
-   height: 430px;
-   margin-bottom: 80px;
+   height: 480px;
    h4{
       text-transform: uppercase;
-      font-size: 18px;
+      font-size: 16px;
       color: #43464b;
       font-weight: 400;
       margin-top: 5px;
@@ -125,7 +123,7 @@ const Avatar = styled.div`
       transform: translate(-50%,-50%);
       color: ${white};
       transition: all 0.2s ease-in;
-      padding: 15px 30px;
+      padding: 12px 35px;
       background-color: inherit;
       border: 1px solid ${white};
       text-transform: uppercase;
@@ -139,7 +137,7 @@ const Avatar = styled.div`
    }
    img{
       width: ${width};
-      height: 430px;
+      height: 400px !important;
    }
 `;
 

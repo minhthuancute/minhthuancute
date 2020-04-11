@@ -13,7 +13,7 @@ import Carousel from '../carousel/Carousel'
 
 const Home = () => {
    const [isShowing, setIsShowing] = useState(true);
-   console.log('home rendered');
+
    return (
       <div>
          <Header />

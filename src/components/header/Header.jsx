@@ -1,8 +1,9 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 import { primary, secondary } from '../colors/colors'
+import Form from '../forms/Form'
 import Menu from './Menu'
 
 const HeaderGalaxy = styled.div`
@@ -10,21 +11,21 @@ const HeaderGalaxy = styled.div`
    justify-content: center;
    align-items: center;
    background-color: #f7f9fa;
-   padding: 18px;
+   padding: 14px;
 `;
 
 const Container = styled.div`
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 1500px;
+   width: 1250px;
    letter-spacing: 0.5px;
 `;
 
 const LeftHeader = styled.div`
    img{
-      width: 450px;
-      height: 55px;
+      width: 400px;
+      height: 50px;
    }
 `;
 
@@ -48,9 +49,9 @@ const MidHeader = styled.form`
 `;
 
 const InputHeader = styled.input`
-   width: 350px;
-   height: 40px;
-   padding: 15px;
+   width: 300px;
+   height: 30px;
+   padding: 14px;
    border: 1px solid #ccc;
    transition: all 0.2s ease-in;
    border-radius: 3px;
@@ -66,7 +67,7 @@ const InputHeader = styled.input`
 const RightHeader = styled.div`
    display: flex;
    a,p{
-      font-size: 16px;
+      font-size: 14px;
    }
    a{
       transition: all 0.2s ease-in;
@@ -89,8 +90,13 @@ const RightHeader = styled.div`
 `;
 
 const Header = () => {
+   console.log('Header rendered');
+
+   const [showForm, setShowForm] = useState(false);
    return (
       <>
+         {showForm && <Form setShowForm={setShowForm} showForm={showForm} />}
+
          <HeaderGalaxy>
             <Container>
                <LeftHeader>
@@ -105,7 +111,7 @@ const Header = () => {
                </MidHeader>
 
                <RightHeader>
-                  <Link to='/'>
+                  <Link to='/' onClick={() => setShowForm(!showForm)}>
                      <i style={{
                         marginRight: '10px'
                      }} className="fas fa-user"></i>
@@ -114,7 +120,7 @@ const Header = () => {
 
                   <p style={{
                      color: '#f26b38'
-                  }}>VN</p> <span>|</span> <p>EN</p>
+                  }}>VN</p>
                </RightHeader>
             </Container>
          </HeaderGalaxy>

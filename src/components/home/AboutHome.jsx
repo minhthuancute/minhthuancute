@@ -6,11 +6,11 @@ import styled from 'styled-components'
 import { primary, black, black2 } from '../colors/colors'
 
 const Container = styled.div`
-   max-width: 1500px;
+   max-width: 1250px;
 `;
 
 const AboutShowingGalaxy = styled.div`
-   margin: 40px 0;
+   margin: 30px 0;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -32,16 +32,16 @@ const AboutShowingGalaxy = styled.div`
          bottom: 0;
          background-color: ${primary};
          width: 60px;
-         height: 3px;
+         height: 2px;
       }
    }
    p{
       margin-bottom: 20px;
       color: rgb(67, 70, 75);
-      font-size: 17px;
+      font-size: 15px;
       font-weight: normal;
       line-height: 28px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.2px;
       word-wrap: break-word;
       a{
          transition: all 0.2s ease-in;

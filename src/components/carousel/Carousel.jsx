@@ -33,7 +33,6 @@ const Container = styled.div`
          position: absolute;
          top: 50%;
          transform: translateY(-50%);
-         outline: none;
          span{
             color: red;
             opacity: 0.6;
@@ -72,8 +71,9 @@ const Container = styled.div`
 
 const Item = styled.div`
    position: relative;
+   height: 460px;
    img{
-      height: 580px;
+      height: 100%;
    }
    button{
       position: absolute;
@@ -81,7 +81,7 @@ const Item = styled.div`
       left: 50%;
       transform: translate(-50%,-50%);
       cursor: pointer;
-      padding: 35px 40px;
+      padding: 30px 35px;
       border-radius: 100%;
       font-size: 30px;
       color: ${white};
@@ -91,16 +91,6 @@ const Item = styled.div`
       &:hover{
          background-color: rgba(0, 0, 0, 0.8);
       }
-   }
-`;
-
-const Ticket = styled.div`
-   /* position: absolute; */
-   right: 100px;
-   top: 50%;
-   transform: translateY(-50%);
-   img{
-      height: 500px;
    }
 `;
 
@@ -181,15 +171,11 @@ const Carousel = () => {
                datasTrailer.isDisplay && <Trailer>
                   <WraperTrailer>
                      <h4>{datasTrailer.name}</h4>
-                     <iframe src={datasTrailer.src} />
+                     <iframe src={datasTrailer.src} title="demo" />
                      <i onClick={() => setDataTrailer('', '', false)} className="fas fa-times"></i>
                   </WraperTrailer>
                </Trailer>
             }
-
-            <Ticket>
-
-            </Ticket>
 
             <OwlCarousel
                className="owl-theme"

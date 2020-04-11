@@ -25,11 +25,11 @@ const FooterGalaxy = styled.div`
 `;
 
 const Container = styled.div`
-   width:  1500px;
+   width:  1250px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 25px 0 0 0;
+   padding: 15px 0 0 0;
 `;
 
 const Item = styled.div`
@@ -39,8 +39,8 @@ const Item = styled.div`
       padding-left: 15px;
       margin-bottom: 10px;
       border-left: 4px solid ${primary};
-      font-size: 20px;
-      font-weight: 0;
+      font-size: 16px;
+      font-weight: 450;
    }
    ul{
       li{
@@ -51,7 +51,7 @@ const Item = styled.div`
          a{
             color: ${secondary};
             text-transform: uppercase;
-            font-size: 15px;
+            font-size: 13px;
             transition: all 0.2s ease-in;
             padding: 4px 0;
             &:hover{
@@ -73,6 +73,7 @@ const LastChild = styled.div`
       margin-bottom: 20px;
       border-left: 4px solid ${primary};
       font-size: 18px;
+      font-weight: 400;
    }
    ul{
       display: flex;
@@ -110,7 +111,7 @@ const LastChild = styled.div`
 `;
 
 const Infor = styled.div`
-   width:  1500px;
+   width:  1250px;
    display: flex;
    align-items: center;
    a{
@@ -118,7 +119,7 @@ const Infor = styled.div`
    }
    p{
       text-transform: capitalize;
-      font-size: 16px;
+      font-size: 14px;
    }
 `;
 

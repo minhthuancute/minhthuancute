@@ -13,7 +13,7 @@ const Preview = styled.div`
 `;
 
 const Container = styled.div`
-   width: 1500px;
+   width: 1250px;
    h3{
       color: rgb(67, 70, 75);
       font-size: 20px;
@@ -46,7 +46,7 @@ const Previews = styled.div`
 
 const Item = styled.div`
    display: flex;
-   width: 740px;
+   width: 610px;
    margin-bottom: 30px;
    &:hover{
       div{
@@ -80,7 +80,7 @@ const Left = styled.div`
 
 const Right = styled.div`
    h5{
-      font-size: 22px;
+      font-size: 20px;
       color: ${black2};
       font-weight: 400;
       transition: all 0.3s ease-in;
@@ -93,7 +93,7 @@ const Right = styled.div`
       letter-spacing: 0.2px;
       color: ${black2};
       font-weight: 400;
-      font-size: 16px;
+      font-size: 14px;
    }
 `;
 
@@ -105,7 +105,7 @@ const MidRight = styled.div`
       background-color: #3498db;
       color: ${white};
       border-radius: 2px;
-      font-size: 14px;
+      font-size: 12px;
       font-stretch: 100%;
       cursor: pointer;
       &:nth-child(2){
@@ -116,11 +116,11 @@ const MidRight = styled.div`
       }
       &:nth-child(3){
          background-color: transparent;
-         font-size: 16px;
+         font-size: 14px;
          color: ${black2};
          i{
             color: yellow;
-            font-size: 20px;
+            font-size: 18px;
          }
       }
    }

@@ -1,11 +1,12 @@
 
+
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { primary, black } from '../colors/colors'
 
 const AboutGalaxy = styled.div`
-   margin: 0 0 30px 0;
+   margin-top: 50px;
    h3{
       color: rgb(67, 70, 75);
       font-weight: 450;
@@ -25,10 +26,11 @@ const AboutGalaxy = styled.div`
       }
    }
    p{
+      margin-bottom: 20px;
       color: rgb(67, 70, 75);
-      font-size: 15px;
-      line-height: 28px;
-      letter-spacing: 0.2px;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0.3px;
       a{
          transition: all 0.2s ease-in;
          font-weight: 500;
@@ -52,6 +54,8 @@ const About = () => {
             tiện trong việc theo dõi.owl-carouselNgoài ra, Galaxy Cinema sẽ luôn cập nhật và tạo thuận tiện giúp bạn nhanh tay đặt lấy suất phim mới nhất, phù
             hợp nhât để thưởng thức.
          </p>
+
+
       </AboutGalaxy>
    )
 }

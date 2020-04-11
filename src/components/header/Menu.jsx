@@ -2,7 +2,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Link } from 'react-router-dom'
-import { primary } from '../colors/colors'
+import { primary, white } from '../colors/colors'
 
 import SubMenuFilms from './SubMenuFilms'
 
@@ -14,7 +14,7 @@ const Display = keyframes`
 
 const MenuGalaxy = styled.div`
    background-color: #000000;
-   padding: 14px;
+   padding: 16px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -22,19 +22,31 @@ const MenuGalaxy = styled.div`
 
 const Ul = styled.ul`
    display: flex;
-   width: 1500px;
+   width: 1250px;
    display: flex;
    justify-content: space-between;
    >li{
       color: white;
       text-transform: uppercase;
-      border-right: 1px solid #fff;
       width: 200px;
       text-align: center;
       cursor: pointer;
-      padding: 5px;
+
+      position: relative;
+      &::after{
+         content: '';
+         position: absolute;
+         width: 1px;
+         height: 10px;
+         background-color: ${white};
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
       &:last-child{
-         border-right: none;
+         &::after{
+            width: 0;
+         }
       }
       &:hover{
          >a,i{
@@ -44,13 +56,17 @@ const Ul = styled.ul`
             display: block;
          }
       }
-      a,i{
+      a{
          transition: all 0.2s ease-in;
          color: #fff;
-         font-weight: 570;
-         font-size: 17px;
+         font-weight: 450;
+         font-size: 14px;
          margin-right: 5px;
          padding: auto;
+      }
+      i{
+         font-size: 12px;
+         margin-bottom: 5px;
       }
    }
 `;
@@ -110,7 +126,7 @@ const Menu = () => {
       <>
          <MenuGalaxy>
             <Ul>
-               <li><Link to='/'>Mua vé</Link></li>
+               <li><Link to='/mua-ve'>Mua vé</Link></li>
 
                <SubMenuFirst>
                   <Link to='/'>Phim</Link>

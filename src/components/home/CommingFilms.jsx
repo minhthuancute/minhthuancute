@@ -19,14 +19,14 @@ const display = keyframes`
 `;
 
 const Container = styled.div`
-   width:  1500px;
+   width:  1250px;
 `;
 
 const Showing = styled.div`
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 30px 0;
+   margin: 15px 0;
 `;
 
 const Menu = styled.div`
@@ -73,18 +73,17 @@ const ShowFilms = styled.div`
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin: 20px 0 50px 0;
+   margin: 10px 0 40px 0;
    animation: ${display} 0.4s linear;
 `;
 
-const width = '480px';
+const width = '400px';
 const Film = styled.div`
    width: ${width};
-   height: 360px;
-   margin-bottom: 30px;
+   height: 350px;
    h4{
       text-transform: uppercase;
-      font-size: 17px;
+      font-size: 16px;
       color: #43464b;
       font-weight: 500;
       margin-top: 5px;
@@ -122,13 +121,13 @@ const Avatar = styled.div`
       transform: translate(-50%,-50%);
       color: ${white};
       transition: all 0.2s ease-in;
-      padding: 15px 30px;
+      padding: 12px 35px;
       background-color: inherit;
       border: 1px solid ${white};
       text-transform: uppercase;
       border-radius: 3px;
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 400;
       &:hover{
          background-color: ${primary};
          border: 1px solid ${primary};
@@ -136,7 +135,7 @@ const Avatar = styled.div`
    }
    img{
       width: ${width};
-      height: 280px;
+      height: 250px;
    }
 `;
 
@@ -148,10 +147,11 @@ const More = styled.div`
       bottom: 0;
       right: 0;
       text-transform: uppercase;
-      padding: 18px 35px;
+      padding: 12px 35px;
       color: ${primary};
       transition: all 0.3s ease-in;
       border: 1px solid ${primary};
+      font-weight: 400;
       &:hover{
          color: ${white};
          background-color: ${primary};

@@ -13,7 +13,7 @@ const SalesGalaxy = styled.div`
 `;
 
 const Container = styled.div`
-   max-width: 1500px;
+   max-width: 1250px;
    h3{
       color: rgb(67, 70, 75);
       font-weight: 500;
@@ -33,7 +33,7 @@ const Container = styled.div`
          bottom: 0;
          background-color: ${primary};
          width: 60px;
-         height: 3px;
+         height: 2px;
       }
    }
 `;
@@ -48,7 +48,7 @@ const Item = styled.div`
    position: relative;
    margin-bottom: 22px;
    &:last-child{
-      margin-right: 384px;
+      margin-right: 320px;
    }
    &:hover{
       &::after,div{
@@ -73,23 +73,23 @@ const More = styled.div`
    left: 0;
    padding: 25px;
    background: rgba(0, 0, 0, 0.6);
-   width: 350px;
+   width: 290px;
    height: 99%;
    color: ${white};
    text-align: center;
    h2{
       text-transform: uppercase;
       color: ${white};
-      font-size: 22px;
-      font-weight: 500;
+      font-size: 18px;
+      font-weight: 400;
       margin-bottom: 40px;
       text-align: left;
    }
    p{
       font-weight: normal;
       text-align: left;
-      font-size: 18px;
-      line-height: 30px;
+      font-size: 15px;
+      line-height: 28px;
    }
    button{
       position: absolute;
@@ -99,13 +99,13 @@ const More = styled.div`
       color: ${white};
       transition: all 0.2s ease-in;
       width: auto;
-      padding: 18px 40px;
+      padding: 12px 35px;
       background-color: inherit;
       border: 1px solid ${white};
       text-transform: uppercase;
       border-radius: 3px;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: 400;
       cursor: pointer;
       &:hover{
          background-color: ${primary};
@@ -128,7 +128,7 @@ const Sales = () => {
                   SalesDatas.map(item => (
                      <Item key={item._id}>
                         <Infor>
-                           <img style={{ width: '350px' }} src={item.avatar} alt={item.name} />
+                           <img style={{ width: '290px' }} src={item.avatar} alt={item.name} />
                         </Infor>
                         <Link to='/'>
                            <More>

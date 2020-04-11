@@ -21,18 +21,18 @@ const Fimls = styled.ul`
    animation: ${Display} 0.3s linear forwards;
    position: absolute;
    z-index: 10000;
-   width: 1280px;
-   height: 650px;
-   top: 30px;
-   left: -15px;
+   width: 1050px;
+   height: 525px;
+   top: 20px;
+   left: 0;
    background-color: ${black};
-   padding: 20px 30px 10px 30px;
+   padding: 25px;
    h3{
       color: ${white};
       text-align: left;
       position: relative;
       margin-bottom: 10px;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 400;
       transition: all 0.2s ease-in;
       padding: 2px 0;
@@ -81,12 +81,13 @@ const Avatar = styled.div`
       transform: translate(-50%,-50%);
       color: ${white};
       transition: all 0.2s ease-in;
-      padding: 14px 25px;
+      padding: 8px 18px;
       background-color: inherit;
       border: 1px solid ${white};
       text-transform: uppercase;
       border-radius: 3px;
-      font-size: 15px;
+      font-size: 14px !important;
+      font-weight: 400 !important;
       &:hover{
          background-color: ${primary};
          border: 1px solid ${primary};
@@ -105,14 +106,14 @@ const CommingSoon = styled(Showing)``;
 
 const Film = styled.div`
    text-align: left;
-   width: 280px;
-   height: 220px;
+   width: 220px;
+   height: 180px;
    img{
       width: 100%;
-      height: 180px;
+      height: 130px;
    }
    h4{
-      font-size: 16px;
+      font-size: 13px;
       font-weight: 400;
       color: ${white};
       text-transform: uppercase;
