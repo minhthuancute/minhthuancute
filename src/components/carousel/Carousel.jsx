@@ -71,7 +71,7 @@ const Container = styled.div`
 
 const Item = styled.div`
    position: relative;
-   height: 460px;
+   height: 440px;
    img{
       height: 100%;
    }

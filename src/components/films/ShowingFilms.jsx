@@ -85,7 +85,7 @@ const Film = styled.div`
    height: 480px;
    h4{
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 15px;
       color: #43464b;
       font-weight: 400;
       margin-top: 5px;

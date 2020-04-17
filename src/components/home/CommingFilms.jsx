@@ -36,7 +36,7 @@ const Menu = styled.div`
    border-bottom: 1px solid ${secondary};
    a{
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 18px;
       margin-right: 30px;
       padding-bottom: 15px;
       position: relative;
@@ -83,7 +83,7 @@ const Film = styled.div`
    height: 350px;
    h4{
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 15px;
       color: #43464b;
       font-weight: 500;
       margin-top: 5px;
@@ -151,7 +151,7 @@ const More = styled.div`
       color: ${primary};
       transition: all 0.3s ease-in;
       border: 1px solid ${primary};
-      font-weight: 400;
+      font-size: 16px;
       &:hover{
          color: ${white};
          background-color: ${primary};

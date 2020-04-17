@@ -16,7 +16,6 @@ const display = keyframes`
 
 const Forms = styled.div`
    position: fixed;
-   animation: ${display} 0.4s;
    z-index: 1000;
    left: 0;
    top: 0;
@@ -28,90 +27,100 @@ const Forms = styled.div`
 `;
 
 const Container = styled.div`
-   width: 640px;
-   height: 550px;
+   animation: ${display} 0.4s;
+   width: 550px;
+   height: min-content;
    background-color: ${white};
    padding: 40px;
-   margin-top: 40px;
-`;
-
-const Menu = styled.div`
-   position: relative;
-   margin-top: 20px;
-   p{
-      margin-top: 30px;
-      color: ${secondary};
-      line-height: 28px;
-      font-size: 17px;
-      font-weight: 400;
-   }
-   i{
-      position: absolute;
-      right: -30px;
-      top: -55px;
-      padding: 5px;
-      color: ${secondary};
-      font-size: 25px;
-      cursor: pointer;
-      transition: all ease-in-out.3s ease-in;
-      &:hover{
-         color: ${primary};
-      }
-   }
-   ul{
-      display: flex;
-      li{
-         text-transform: uppercase;
-         color: ${primary};
-         margin-right: 40px;
-         font-weight: 400;
-         font-size: 32px;
-         padding-bottom: 15px;
-         transition: all 0.3s ease-in;
-         line-height: 20px;
-         cursor: pointer;
-         transition: all 0.3s ease-in;
-
-         &:hover{
-
-         }
-         &:last-child{
-            margin-right: 0;
-         }
-         &:nth-child(1){
-
-         }
-         &:nth-child(2){
-            border-bottom: none;
-         }
-         &:nth-child(3){
-
-         }
-      }
-   }
+   margin-top: 25px;
 `;
 
 const Form = (props) => {
-   const [isLogin, setIsLogin] = useState(true);
+   const [index, setIndex] = useState(props.index ? props.index : 1);
 
-   const [datasRegister, setDatasRegister] = useState({
+   const render = (index) => {
+      switch (index) {
+         case 1:
+            return <Login />;
+         case 3:
+            return <Register />
+      }
+   }
 
-   })
+   const Menu = styled.ul`
+      position: relative;
+      display: flex;
+      width: 100%;
+      i{
+         position: absolute;
+         right: -40px;
+         top: -40px;
+         padding: 8px 12px;
+         color: ${secondary};
+         font-size: 22px;
+         cursor: pointer;
+         transition: all 0.3s ease-in;
+         &:hover{
+            color: ${primary};
+         }
+      }
+       li{
+         text-transform: uppercase;
+         font-size: 22px !important;
+         margin-right: 30px;
+         padding-bottom: 12px;
+         position: relative;
+         transition: all 0.2s ease-in;
+         color: ${secondary};
+         cursor: pointer;
+         list-style: none !important;
+         &::before{
+            content:'';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: ${primary};
+            bottom: -1.4px;
+            left: 0;
+            transform-origin: (50%,50%);
+            transition: all 0.2s ease-in;
+            transform: scale(0);
+         }
+         &:hover{
+            &::before{
+               transform: scale(1);
+            }
+         }
+         &:nth-child(2){
+            &::before{
+               width: 0;
+            }
+         }
+         &:nth-child(${index}){
+            color: ${primary};
+            &:hover{
+               color: ${primary};
+            }
+            &::before{
+               transform: scale(1);
+            }
+         }
+      }
+   `;
 
    return (
       <Forms>
          <Container>
             <Menu>
-               <ul>
-                  <li onClick={() => setIsLogin(true)}>đăng nhập</li>
-                  <li>/</li>
-                  <li onClick={() => setIsLogin(false)}>đăng ký</li>
-               </ul>
+               <li onClick={() => setIndex(1)}>đăng nhập</li>
+               <li>/</li>
+               <li onClick={() => setIndex(3)}>đăng ký</li>
                <i onClick={() => props.setShowForm()} className="fas fa-times" title="Thoát"></i>
-               <p>Vui lòng đăng nhập trước khi mua vé để tích lũy điểm, cơ hội nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy Cinema.</p>
             </Menu>
 
-            {isLogin ? <Login /> : <Register />}
+            {
+               render(index)
+            }
          </Container>
       </Forms>
    )

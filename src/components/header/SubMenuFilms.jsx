@@ -18,7 +18,7 @@ const Display = keyframes`
 
 const Fimls = styled.ul`
    display: none;
-   animation: ${Display} 0.3s linear forwards;
+   animation: ${Display} 0.2s linear forwards;
    position: absolute;
    z-index: 10000;
    width: 1050px;
